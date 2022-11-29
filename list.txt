@@ -1,0 +1,28 @@
+total 45
+drwxr-xr-x 1 陈坤 197609     0 11月 29 13:04 file
+-rw-r--r-- 1 陈坤 197609  2238 11月 29 10:10 index.js
+drwxr-xr-x 1 陈坤 197609     0 11月 28 11:23 lib
+-rw-r--r-- 1 陈坤 197609     0 11月 29 18:45 list.txt
+drwxr-xr-x 1 陈坤 197609     0 11月 28 11:54 node_modules
+drwxr-xr-x 1 陈坤 197609     0 11月 28 12:07 out
+-rw-r--r-- 1 陈坤 197609   253 11月 29 09:56 package.json
+-rw-r--r-- 1 陈坤 197609 13271 11月 28 11:54 package-lock.json
+-rwxr-xr-x 1 陈坤 197609 15033 11月 29 18:45 prc.sh
+drwxr-xr-x 1 陈坤 197609     0 11月 29 17:40 shBack
+drwxr-xr-x 1 陈坤 197609     0 11月 28 11:38 stuff
+-rwxr-xr-x 1 陈坤 197609  3940 11月 29 18:29 update.sh
+.
+..
+.git
+file
+index.js
+lib
+list.txt
+node_modules
+out
+package.json
+package-lock.json
+prc.sh
+shBack
+stuff
+update.sh

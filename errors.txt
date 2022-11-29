@@ -1,0 +1,6 @@
+grep: file: Is a directory
+grep: lib: Is a directory
+grep: node_modules: Is a directory
+grep: out: Is a directory
+grep: shBack: Is a directory
+grep: stuff: Is a directory
