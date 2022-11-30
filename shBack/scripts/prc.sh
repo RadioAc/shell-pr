@@ -657,8 +657,12 @@ paramsFunction 1 "abc" "hello, \"zp\""
 # ### 从errors.txt中读取输入
 # less < errors.txt
 
+git branch -a > /dev/null
+
 
 # 查询当前目录项目git本地及线上分支, 返回分支名中包含 test 的分支 
 # git branch -a|grep test 
 # 查询当前目录项目git本地及线上分支, 返回分支名匹配当前正则的分支 
 # git branch -a|grep -P "v4.0_\d+_fix_dev"
+
+# exit [返回值]
