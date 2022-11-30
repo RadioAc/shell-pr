@@ -191,6 +191,27 @@ echo `expr index "${text}" ll`
 nums=([2]=2 [0]=0 [1]=1)
 colors=(red yellow "dark blue")
 
+echo ${nums[1]}
+# Output: 1
+
+echo ${colors[*]}
+# Output: red yellow dark blue
+echo ${colors[@]}
+# Output: red yellow dark blue
+# 上文的两中访问数组方式是有区别的
+printf "+ %s\n" ${colors[*]}
+# Output:
+# + red
+# + yellow
+# + dark
+# + blue
+printf "+ %s\n" "${colors[@]}"
+# Output:
+# + red
+# + yellow
+# + dark blue
+# 在引号内，${colors[@]}将数组中的每个元素扩展为一个单独的参数；数组元素中的空格得以保留。
+
 echo ${nums[@]:0:2}
 # Output:
 # 0 1
@@ -666,3 +687,6 @@ git branch -a > /dev/null
 # git branch -a|grep -P "v4.0_\d+_fix_dev"
 
 # exit [返回值]
+
+# getopts 入参格式声明 入参命名
+# getopts optstring name [arg...]
