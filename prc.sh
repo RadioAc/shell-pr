@@ -7,7 +7,7 @@ echo '这是多行注释'
 echo '这是多行注释' 
 echo '这是多行注释' 
 EOF
-help
+# help
 #  Output: 
 # job_spec [&]                            history [-c] [-d offset] [n] or hist>
 # (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
